@@ -1,0 +1,388 @@
+/* .App {
+  text-align: center;
+}
+
+.nav{
+  color:aliceblue;
+}
+
+.div-logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 50px;
+  padding: 20px;
+}
+.ul{
+  list-style: none;
+  padding: 10px;
+
+}
+
+.ul li {
+  display: inline;
+  font-size: 25px;
+  padding: 10px;
+  
+}
+
+
+.ul li a{
+  color:rgb(75, 75, 75);
+  text-decoration: none;
+
+}
+
+.ul li a:hover{
+  color:rgb(210, 210, 210);
+  
+}
+.btn-login{
+ background-color: rgb(215, 44, 44);
+ font-size: 25px;
+ color:rgb(75, 75, 75);
+ 
+
+} */
+/* dark #c70101 */
+/* light #f24444 */
+
+
+
+:root {
+  --darkr: #920909;
+  --lightr: #fe021a;
+  --gray: #ffffffbc;
+}
+
+
+
+
+
+.text-gray {
+  color: var(--gray);
+}
+
+.toogal_icon img {
+  filter: invert(1);
+  width: 25px;
+}
+.navbar {
+  background: #0d0d0d !important;
+  position: sticky;
+  top: -1px;
+  z-index: 5555;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.3s all ease-in-out;
+  padding: 0px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  border-bottom: 2px solid #c70101;
+}
+
+.login_btn {
+  background: var(--darkr);
+  /* background: linear-gradient(90deg, var(--darkr) 0%, var(--lightr) 100%); */
+  color: var(--gray);
+}
+
+.login_btn:hover {
+  color: #fff;
+  background-color: var(--lightr);
+}
+
+/* Heading */
+.heading_2 {
+  font-size: 50px;
+}
+
+.heading_3 {
+  font-size: 60px;
+}
+
+.span_heading2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+/* hero section */
+.hero_section .left_side .heading {
+  font-size: 65px;
+}
+
+.hero_section .left_side .heading .inner_heading {
+  color: var(--darkr);
+}
+
+.hero_section .left_side .average_time {
+  color: var(--gray);
+}
+
+/* growth_card */
+.growth_card .card {
+  background: linear-gradient(90deg, var(--lightr) 0%, var(--darkr) 100%);
+  transition: 0.3s all ease-in-out;
+}
+
+.growth_card .card:hover {
+  background: linear-gradient(90deg, var(--darkr) 0%, var(--lightr) 100%);
+  cursor: pointer;
+
+}
+
+.growth_card .card .card-body .card_icon {
+  filter: invert(1);
+  inline-size: 25px;
+}
+
+/* chooseUs_section */
+.chooseUs_section .card .card-body .innercontent {
+  height: 150px;
+  width: 150px;
+  background-color: var(--lightr);
+}
+
+/* wellness_section */
+
+.wellness_section .inner_wellness .cards .content {
+  transition: 0.3s all ease-in-out;
+  /* line-height: 23px; */
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.wellness_section .inner_wellness .cards .content:hover {
+  color: #fff;
+}
+
+.wellness_section .inner_wellness .cards .inner_image {
+  width: 50px;
+}
+
+/* main_footer */
+.main_footer .quick_link {
+  list-style: none;
+}
+
+.main_footer .quick_link .inner_link {
+  transition: 0.3s all ease-in-out;
+}
+
+.main_footer .quick_link .inner_link:hover {
+  transform: translateX(5px);
+}
+
+.main_footer .quick_link .inner_link .inner_links {
+  font-size: 20px;
+  transition: 0.3s all ease-in-out;
+  color: #b5b5b5;
+}
+
+.main_footer .quick_link .inner_link .inner_links:hover {
+  color: #fff;
+}
+
+.main_footer .social_part .inner_cart {
+  width: 40px;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+}
+
+.main_footer .social_part .inner_cart .insta {
+  color: #e1306c;
+  transition: 0.3s all ease-in-out;
+}
+
+.main_footer .social_part .inner_cart1:hover {
+  background-color: #e1306c !important;
+}
+
+.main_footer .social_part .inner_cart2:hover {
+  background-color: #4267b2 !important;
+}
+
+.main_footer .social_part .inner_cart3:hover {
+  background-color: #0e76a8 !important;
+}
+
+.main_footer .social_part .inner_cart1:hover .insta {
+  color: #fff !important;
+}
+
+.main_footer .social_part .inner_cart2:hover .fb {
+  color: #fff !important;
+}
+
+.main_footer .social_part .inner_cart3:hover .linkd {
+  color: #fff !important;
+}
+
+.main_footer .social_part .inner_cart .fb {
+  color: #4267b2;
+  transition: 0.3s all ease-in-out;
+}
+
+.main_footer .social_part .inner_cart .linkd {
+  color: #0e76a8;
+  transition: 0.3s all ease-in-out;
+}
+
+/* contactus */
+.main_footer .contactus .content {
+  font-size: 20px;
+  color: #b5b5b5;
+}
+
+/* ********* */
+.scrool_Row {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+
+.scrool_Row::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+/* offcanvas-start */
+.offcanvas-start {
+  width: 50% !important;
+  z-index: 9999;
+  background-color: var(--darkr);
+}
+
+.offcanvasBtn {
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--lightr);
+}
+
+.arrow_icon {
+  font-size: 18px;
+}
+
+.links_imagess {
+  width: 25px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+  .main_footer .quick_link .inner_link .inner_links {
+    font-size: 14px;
+  }
+  .main_footer .footer_heading {
+    font-size: 16px !important;
+  }
+  .main_footer .contactus .content {
+    font-size: 14px !important;
+    align-items: center;
+  }
+  .main_footer .social_part .inner_cart {
+    width: 30px;
+    height: 30px;
+  }
+  .main_footer .social_part .inner_cart i {
+    font-size: 15px !important;
+  }
+  .fs-4 {
+    font-size: 17px !important;
+  }
+
+  .fs-5 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 18px !important;
+  }
+
+  .fs-6 {
+    font-size: 15px !important;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px !important;
+  }
+
+
+  .wellness_section .inner_wellness .cards .content {
+    font-size: 14px;
+  }
+  
+
+.wellness_section .inner_wellness .cards .inner_image  {
+  width: 40px;
+}
+
+/* .hero_section .left_side .heading {
+  font-size: 30px !important;
+} */
+.heading_2 {
+  font-size: 25px !important;
+}
+.span_heading2 {
+  font-size:  16px !important;
+}
+.heading_3  {
+  font-size: 27px !important;
+}
+.offcanvas-start {
+  width: 80% !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .hero_section .left_side .heading {
+    font-size: 35px;
+  }
+  .heading_2 {
+    font-size: 28px;
+  }
+  .span_heading2 {
+    font-size:  18px;
+  }
+  .heading_3  {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand .logo_img {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-device-width: 678px) and (max-device-width: 992px) {
+  .hero_section .left_side .heading {
+    font-size: 50px;
+  }
+  .heading_2 {
+    font-size: 40px;
+  }
+  .span_heading2 {
+    font-size: 25px;
+  }
+  .heading_3  {
+    font-size: 45px;
+  }
+}
+
+.btn_hero:hover{
+  background: #fff !important;
+  color: #0d0d0d !important;
+}
